@@ -23,11 +23,3 @@ print("Username: " + username)
 
 #New User Contact Information
 #Using all the information you have created, print the data in a nice format. That is, generate a "Contact Card" style output that looks better than just printing values.
-
-contactCard =""" "How's it going " + firstname + " " + lastname 
-+ "Email: " + email 
-+ firstname[0:3] + "_" + lastname[0:5]
-"""
-
-
-print(contactCard)
