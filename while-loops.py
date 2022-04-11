@@ -28,20 +28,32 @@
 #   print('hello')
 #   answer = input('')
 
-while True:
-  choice = input("""
-  Choose an option:
-  A) say hello
-  B) do a dance
-  C) quit
-  """)
+# while True:
+#   choice = input("""
+#   Choose an option:
+#   A) say hello
+#   B) do a dance
+#   C) quit
+#   """)
 
-  if choice == 'A':
-    print('Hai!')
-  elif choice == 'B':
-    print('Im Dancing!')
-  elif choice == 'C':
+#   if choice == 'A':
+#     print('Hai!')
+#   elif choice == 'B':
+#     print('Im Dancing!')
+#   elif choice == 'C':
+#     break
+#   else:
+#     print("thats not an option")
+# print('Bye!')
+
+
+
+while True:
+  user_input = input("Say hi to grandma: ")
+  if user_input == 'BYE':
+    print("BYE SONNY!")
     break
+  elif user_input == user_input.upper():
+    print("NO, NOT SINCE 1938! ")
   else:
-    print("thats not an option")
-print('Bye!')
+    print("HUH SPEAK UP SONNY")
