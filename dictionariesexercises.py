@@ -79,17 +79,19 @@
 
 #Histogram Tally
 
-sentence = input("Please enter a sentence: ").lower()
+# sentence = input("Please enter a sentence: ").lower()
 
-word = {}
+# word = {}
 
-sentence = sorted(sentence.split())
+# sentence = sorted(sentence.split())
 
-for item in sentence:
-  if item not in word:
-    word[item] = 0
-  word[item] += 1
+# for item in sentence:
+#   if item not in word:
+#     word[item] = 0
+#   word[item] += 1
 
 
-print(word)
+# print(word)
+
+#Structuring Data
 
